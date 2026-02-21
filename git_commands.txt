@@ -14,17 +14,110 @@
   15 git status
   16 git commit -m "added testing files"
   17 git status
-  
-3 git status
-   4 git add .\testing.py
-   5 git status
-   6 git rm --cache .\testing.py
-   7 git status
-   8 git add .\testing.py
-   9 git status
-  10 git commit -m "added testing files"
-  11 Omit --global
-  12 git status
-  13 git commit -m "added testing files"
-  14 git config --global user.email "nayangavli01@gmail.com"
-  15 git status
+  18 history
+  19 git status
+  20 git add .\git_commands.txt
+  21 git commit -m "commands added"
+  22 git remote add origin https://github.com/nayangavli01/github-for-devops-workshop.git
+  23 git remote -v
+  24 git remote set-url origin https://:/nayangavli01/github-for-devops-workshop.git
+  25 git remote -v
+  26 git push origin master
+  27 git status
+  28 git add .
+  29 git status
+  30 git commit -m "PAT added"
+  31 git push origin master
+  32 git remote -v
+  33 cd ..
+  34 ls
+  35 cd .\git-clone-demo\
+  36 ls
+  37 git clone https://github.com/nayangavli01/TWS-github-for-devops-workshop.git
+  38 ls
+  39 cd .\TWS-github-for-devops-workshop\
+  40 ls
+  41 git remote -v
+  42 cd ..
+  43 cd ..
+  44 cd .\github-for-devops-workshop\
+  45 git remote -v
+  46 cd ..
+  47 cd .\git-clone-demo\
+  48 cd .\TWS-github-for-devops-workshop\
+  49 history
+  50 cd ..
+  51 cd ..
+  52 cd .\github-for-devops-workshop\
+  53 git status
+  54 git status
+  55 git status
+  56 git status
+  57 git add .\git_commands.txt
+  58 git status
+  59 git commit -m "added new commands"
+  60 git remote -v
+  61 git push origin master
+  62 git push add origin https://github.com/nayangavli01/github-for-devops-workshop.git
+  63 git remote -v
+  64 git push origin master
+  65   https://github.com/nayangavli01/github-for-devops-workshop/security/secret-scanning/unblock-secret/39yzmrxNDhHxPnOOICrLGtvnYzk
+  66 git status
+  67 git add .
+  68 git commit -m .\git_commands.txt
+  69 git push origin master
+  70 git add .
+  71 git commit -m .\git_commands.txt
+  72 git push origin master
+  73 got commit --amend
+  74 git commit --amend
+  75 git push origin master --force
+  76 git remove -v
+  77 git remote -v
+  78 git filter-repo -f --index-filter 'git rm --cached --ignore-unmatch git_commands.txt'...
+  79 git rm git_commands.txt
+  80 git status
+  81 git add git_commands.txt
+  82 ls
+  83 git add .
+  84 git status
+  85 git commit -m .\git_commands.txt
+  86 ls
+  87 git status
+  88 git add .
+  89 git commit -m .\testing.py
+  90 git remote -v
+  91 git push origin master
+  92 git set-url origin https://om/nayangavli01/github-for-devops-workshop.git
+  93 git remote  set-url origin https://m/nayangavli01/github-for-devops-workshop.git
+  94 git remote -v
+  95 git push origin master
+  96 git add git_commands.txt...
+  97 git push origin master --force
+  98 pip install git-filter-repo
+  99 git filter-repo --replace-text <(echo ==>REMOVED")
+ 100 git filter-repo --replace-text <(echo "YOUR_TOKEN==>REMOVED")
+ 101 echo 
+ 102 git filter-repo --replace-text replacements.txt
+ 103 git push origin master --force
+ 104 git init
+ 105 git status
+ 106 git add .
+ 107 git commit -m .
+ 108 git status
+ 109 git remote -v
+ 110 git remote set-url https:///nayangavli01/github-for-devops-workshop
+ 111 git remote -v
+ 112 git remote add origin https://github.com/nayangavli01/github-for-devops-workshop.git
+ 113 git remote set-url https:///nayangavli01/github-for-devops-workshop
+ 114 git remote -v
+ 115 git remote origin set-url https://@github.com/nayangavli01/github-for-devops-workshop
+ 116 git remote set-url origin https://@github.com/nayangavli01/github-for-devops-workshop
+ 117 git remote -vA
+ 118 git push origin master
+ 119 git push origin master1
+ 120 git pull origin master --allow-unrelated-histories
+ 121 git push origin master1
+ 122 git push origin master
+ 123 git pull origin master --allow-unrelated-histories
+ 124 git push origin master
