@@ -20,7 +20,11 @@
   21 git commit -m "commands added"
   22 git remote add origin https://github.com/nayangavli01/github-for-devops-workshop.git
   23 git remote -v
+<<<<<<< HEAD
   24 git remote set-url origin https:///nayangavli01/github-for-devops-workshop.git
+=======
+  24 git remote set-url origin https://:/nayangavli01/github-for-devops-workshop.git
+>>>>>>> 622a1bb80666c1bbaa5368d5007ee7b2d8e10063
   25 git remote -v
   26 git push origin master
   27 git status
@@ -120,4 +124,8 @@
  121 git push origin master1
  122 git push origin master
  123 git pull origin master --allow-unrelated-histories
+<<<<<<< HEAD
  124 git push origin master
+=======
+ 124 git push origin master
+>>>>>>> 622a1bb80666c1bbaa5368d5007ee7b2d8e10063
