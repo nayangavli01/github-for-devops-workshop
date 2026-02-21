@@ -1,0 +1,30 @@
+2 git init
+   3 git status
+   4 git add .\testing.py
+   5 git status
+   6 git rm --cache .\testing.py
+   7 git status
+   8 git add .\testing.py
+   9 git status
+  10 git commit -m "added testing files"
+  11 Omit --global
+  12 git status
+  13 git commit -m "added testing files"
+  14 git config --global user.email "nayangavli01@gmail.com"
+  15 git status
+  16 git commit -m "added testing files"
+  17 git status
+  
+3 git status
+   4 git add .\testing.py
+   5 git status
+   6 git rm --cache .\testing.py
+   7 git status
+   8 git add .\testing.py
+   9 git status
+  10 git commit -m "added testing files"
+  11 Omit --global
+  12 git status
+  13 git commit -m "added testing files"
+  14 git config --global user.email "nayangavli01@gmail.com"
+  15 git status
